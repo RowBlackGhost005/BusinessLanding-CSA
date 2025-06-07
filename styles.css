@@ -1,0 +1,95 @@
+.bg-primary {
+    background-color: #123175 !important;
+}
+
+.bg-secondary {
+    background-color: #5298c1 !important;
+}
+
+.bg-tertiary {
+    background-color: #c0c2c9;
+}
+
+.bg-highlight {
+    background-color: #63747a;
+}
+
+.bg-highlight-translucent {
+    background-color: rgba(99, 116, 122 , 0.9);
+}
+
+.narrow-centered-area {
+    text-align: center;
+    max-width: 768px;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.btn-highlight {
+    background-color: #c0c2c9;
+}
+
+.btn-highlight:hover {
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
+    border-color: #c0c2c9;
+    color: #c0c2c9;
+}
+
+.text-highlight {
+    font-weight: 700;
+    color: #333333;
+}
+
+.card-header {
+    background-color: #123175;
+    color: #f5f5f5 ;
+}
+
+.card-body {
+    background-color: #c0c2c9;
+}
+
+.card-footer {
+    background-color: #c0c2c9;
+}
+
+.card{
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+    border-color: #123175;
+    border-width: 2px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.card-residentials-bg {
+    background-color: #5553e2;
+}
+
+.card-business-bg {
+    background-color: #275774;
+}
+
+.card-testimonials-bg {
+    background-color: #706900;
+}
+
+.icon-max-w {
+    max-width: 80px;
+}
+
+@media (min-width: 768px) {
+    .responsive-width-50 {
+        max-width: 50%;
+    }
+}
+
+a {
+    color: #333333;
+}

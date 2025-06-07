@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>NeoLink</title>
+</head>
+
+<body class="bg-secondary">
+    <header class="bg-primary container-fluid sticky-top pt-1">
+        <div class="row" id="title">
+            <div class="col-1 flex-column">
+                <a  class="navbar-brand" href="#">
+                    <img src="resources/images/logo.jpeg" alt="Company Logo" style="width: 72px ;" class="rounded-pill"> 
+                </a>
+            </div>
+
+            <div class="col-10 d-flex align-items-center justify-content-center">
+                <h2 class="text-white">Neo Link</h2>
+            </div>
+        </div>
+
+        <div class="row" id="navBarContainer">
+            <div class="col-md-12 navbar navbar-expand-md justify-content-center" >
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="navbar-collapse collapse justify-content-center text-center" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#services">Our Services</a>
+                            </li>
+                    
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#testimonials">Testimonials</a>
+                            </li>
+                    
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#aboutUs">About Us</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+            </div>
+
+
+
+        </div>
+    </header>
+
+    <main class="container-fluid px-0">
+        <section class="vw-100 pt-5 pb-5" style="background: url(resources/images/connectivity-bg.jpg); background-size: cover;" id="callToAction">
+            <div class="container bg-highlight-translucent narrow-centered-area">
+                <div class="row justify-content-center">
+                    <div class="col-md-12">
+                        <h2>Experience Next-Gen Connectivity with NeoLink!</h2>
+                        <hr>
+                        <p>
+                            Say goodbye to lag and link to NeoLink, the ultra-fast and reliable internet provider, with cutting-edge fiber optic technology, 
+                            NeoLink delivers lightning speed connections tailored for those who stream, game, work from home or just want to stay 
+                            up to date without delay.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 mx-auto">
+                        <button type="button" class="btn btn-highlight" data-bs-toggle="modal" data-bs-target="#modalContactUs">Get Linked</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mt-5" id="services">
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Services</h2>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-md-12 text-center my-2">
+                    <h2>Residential</h2>
+                </div>
+            </div>
+            
+            <div class="row d-flex align-items-stretch">
+
+                <div class="col-md-3 mb-3">
+                    <div class="card text-center justify-content-center h-100">
+                        <div class="card-header card-residentials-bg">
+                            <h3>Basic Link</h3>
+                            <img src="resources/images/hotspot.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} icon-max-w" alt="Hotstop icon">
+                            <p class="fs-5"><b>25 Mbps</b></p>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Ideal for being conected, accesing emails, browsing internet and light streaming.
+                            </p>
+                            <p class="mb-0"><b>Includes:</b></p>
+                            <ul class="" style="list-style: none; padding: 0px;">
+                                <li>
+                                    <p class="mb-0">50 Mbps Internet</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Wireless Router</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <p class="text-highlight">$25</p>
+                            <button type="button" class="btn btn-primary">Get it</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <div class="card text-center justify-content-center h-100">
+                        <div class="card-header card-residentials-bg">
+                            <h3>Standar Link</h3>
+                            <img src="resources/images/fire.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} icon-max-w" alt="Fire icon">
+                            <p class="fs-5"><b>100 Mbps</b></p>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Great for HD streaming, video calls and moderate gaming.
+                            </p>
+                            <p class="mb-0"><b>Includes:</b></p>
+                            <ul class="" style="list-style: none; padding: 0px;">
+                                <li>
+                                    <p class="mb-0">100 Mbps Internet</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Wireless Router</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <p class="text-highlight">$45</p>
+                            <button type="button" class="btn btn-primary">Get it</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <div class="card text-center justify-content-center h-100">
+                        <div class="card-header card-residentials-bg">
+                            <h3>Advanced Link</h3>
+                            <img src="resources/images/bolt.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} icon-max-w" alt="Bolt icon">
+                            <p class="fs-5"><b>250 Mbps</b></p>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Excellent for streamers, 4K video streaming and intense gaming.
+                            </p>
+                            <p class="mb-0"><b>Includes:</b></p>
+                            <ul class="" style="list-style: none; padding: 0px;">
+                                <li>
+                                    <p class="mb-0">250 Mbps Internet</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Wireless Router</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">1 Range extensor</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <p class="text-highlight">$70</p>
+                            <button type="button" class="btn btn-primary">Get it</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <div class="card text-center justify-content-center h-100">
+                        <div class="card-header card-residentials-bg">
+                            <h3>Premium Link</h3>
+                            <img src="resources/images/dashboard.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} icon-max-w" alt="Dashboard icon">
+                            <p class="fs-5"><b>1,000 Mbps</b></p>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Perfect for 4K streaming, competitive gaming and smart home setups.
+                            </p>
+                            <p class="mb-0"><b>Includes:</b></p>
+                            <ul class="" style="list-style: none; padding: 0px;">
+                                <li>
+                                    <p class="mb-0">100 Mbps Internet</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Wireless Router</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">2 Range extensors</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <p class="text-highlight">$100</p>
+                            <button type="button" class="btn btn-primary">Get it</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <hr>
+
+            <div class="row">
+                <div class="col-md-12 text-center my-2">
+                    <h2>Business</h2>
+                </div>
+            </div>
+            
+            <div class="row d-flex align-items-stretch">
+
+                <div class="col-md-3 mb-3">
+                    <div class="card text-center justify-content-center h-100">
+                        <div class="card-header card-business-bg">
+                            <h3>Business Basic</h3>
+                            <img src="resources/images/handphone.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} icon-max-w" alt="Phone icon">
+                            <p class="fs-5"><b>50 Mbps</b></p>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Keep your business connected and working smoothly.
+                            </p>
+                            <p class="mb-0"><b>Includes:</b></p>
+                            <ul class="" style="list-style: none; padding: 0px;">
+                                <li>
+                                    <p class="mb-0">50 Mbps Internet</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Wireless Router</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">1 Device anti-virus</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <p class="text-highlight">$40</p>
+                            <button type="button" class="btn btn-primary">Get it</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <div class="card text-center justify-content-center h-100">
+                        <div class="card-header card-business-bg">
+                            <h3>Business Link</h3>
+                            <img src="resources/images/web.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} icon-max-w" alt="Web icon">
+                            <p class="fs-5"><b>150 Mbps</b></p>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Keep all your buisness connected without compromises.
+                            </p>
+                            <p class="mb-0"><b>Includes:</b></p>
+                            <ul class="" style="list-style: none; padding: 0px;">
+                                <li>
+                                    <p class="mb-0">150 Mbps Internet</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Wireless Router</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">1 Range extensor</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">2 Devices anti-virus</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <p class="text-highlight">$80</p>
+                            <button type="button" class="btn btn-primary">Get it</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <div class="card text-center justify-content-center h-100">
+                        <div class="card-header card-business-bg">
+                            <h3>Business Premium</h3>
+                            <img src="resources/images/cloud.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} icon-max-w" alt="Cloud icon">
+                            <p class="fs-5"><b>500 Mbps</b></p>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Excellent for all your devices, cameras and support for staff-only internet.
+                            </p>
+                            <p class="mb-0"><b>Includes:</b></p>
+                            <ul class="" style="list-style: none; padding: 0px;">
+                                <li>
+                                    <p class="mb-0">500 Mbps Internet</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Wireless Router</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">3 Range extensor</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">5 Devices anti-virus</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <p class="text-highlight">$150</p>
+                            <button type="button" class="btn btn-primary">Get it</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <div class="card text-center justify-content-center h-100">
+                        <div class="card-header card-business-bg">
+                            <h3>Business Elite</h3>
+                            <img src="resources/images/airplane.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} icon-max-w" alt="Airplane icon">
+                            <p class="fs-5"><b>+500 Mbps</b></p>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Dedicated high-speed internet for business with priority bandwith. <br>
+                                Tailored to your needs
+                            </p>
+                            <p class="mb-0"><b>Can include:</b></p>
+                            <ul class="" style="list-style: none; padding: 0px;">
+                                <li>
+                                    <p class="mb-0">Up to 2 GB network speed</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Custom Email domain</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Multiple Access Points</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Wi-Fi optimiation</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Up to 100 anti-virus keys</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <p class="text-highlight">+$150</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalContactUs">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="container" id="testimonials">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Testimonials</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card text-center justify-content-center h-100">
+                        <div class="card-header card-testimonials-bg">
+                            <img src="resources/images/user.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} icon-max-w" alt="User icon">
+                            <p class="mt-2"><b>Ana</b></p>
+                            <p>5 Stars</p>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                NeoLink helped me grow my small business from the begining by allowing me fast internet connection between me and my suppliers
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="card text-center justify-content-center h-100">
+                        <div class="card-header card-testimonials-bg">
+                            <img src="resources/images/user.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} icon-max-w" alt="User icon">
+                            <p class="mt-2"><b>John</b></p>
+                            <p>4 Stars</p>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Now my streams never lag and my viewers get the best quality with neo link!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="card text-center justify-content-center h-100">
+                        <div class="card-header card-testimonials-bg">
+                            <img src="resources/images/user.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} icon-max-w" alt="User icon">
+                            <p class="mt-2"><b>Eli</b></p>
+                            <p>5 Stars</p>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Now my customers have free wi-fi while on my store and also everything is connected without down-time tanks to neo link!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="container" id="aboutUs">
+                <div class="col-md-12 text-center">
+                    <h2>About us</h2>
+                </div>
+
+            <div class="container bg-highlight-translucent narrow-centered-area">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 text-center mx-auto">
+                        <i class="bi fs-5 bi-wifi"></i>
+                        <p>
+                            At NeoLink, we belive that the internet should be fast, reliable and hassle-free. Our cutting-edge
+                            fiber-optic technology
+                            delivers ultra-fast speeds, ensuring seamless streaming, gaming and work from home experiences and we
+                            even provide business
+                            focused services.
+                            <br> <br>
+                            With zero lag, 24/7 support and flexible plans, NeoLink is designed to keep you connected.
+                            <br> <br>
+                            Join the future of connectivity today!.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mx-auto">
+                        <button type="button" class="btn btn-highlight" data-bs-toggle="modal" data-bs-target="#modalContactUs">Get Linked</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <hr>
+
+        <section class="container" id="contact">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Contact</h2>
+                    <p><b>Want to Link to NeoLink network? Contact us filing the form below, a representative will call you back shortly after </b></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" id="contactUsFormContainer">
+                    <form class="mx-auto responsive-width-50 border ps-3 pe-3" id="contactMeForm" action="mailto:la.marin@outlook.com">
+                
+                        <div class="mb-3 mt-3">
+                            <label for="username" class="form-label text-color">Name:</label>
+                            <input type="text" class="form-control" name="username" id="username" placeholder="John" required>
+                        </div>
+
+                        <div class="mb-3 mt-3">
+                            <label for="email" class="form-label text-color">Email:</label>
+                            <input type="email" class="form-control " name="email" id="email" placeholder="example@mail.com" required>
+                        </div>
+                
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal fade" id="modalContactUs" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">CONTACT US</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Connect to Neo Link network today:</p>
+                        <p>Phone: +55 555 2354 352</p>
+                        <p>Email: conectme@neolink.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <hr>
+
+    <footer class="container-fluid bg-primary text-white">
+
+        <div class="row justify-content-center">
+            <div class="col-md-12 d-flex justify-content-center">
+                <p>Follow up on our socials:</p>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-4 text-center">
+                <a href="#" class="text-white">Facebook</a>
+            </div>
+            <div class="col-4 text-center">
+                <a href="#" class="text-white">Twitter</a>
+            </div>
+            <div class="col-4 text-center">
+                <a href="#" class="text-white">LikedIn</a>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-12 d-flex justify-content-center">
+                <i class="bi bi-c-circle text-center"> NeoLink. <br> All Rights Reserved (2025).</i>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+
+</html>
